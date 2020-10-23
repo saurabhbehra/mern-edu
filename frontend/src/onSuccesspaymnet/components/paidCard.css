@@ -1,0 +1,16 @@
+.v-line{
+    border-left: 6px solid green;
+    height: 63px;
+    margin-left:-1.2rem;
+    margin-top:-1.3rem;
+    padding-top:1.1rem;
+    padding-left:1rem;
+}
+.my-course-card{
+    height:4rem;
+    cursor:pointer;
+}
+.play-heading{
+    padding-left:20px;
+
+}
