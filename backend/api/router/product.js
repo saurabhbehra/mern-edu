@@ -9,8 +9,8 @@ const AWS =require('aws-sdk')
 const Product=require('../models/product');
 
 const s3=new AWS.S3({
-    accessKeyId: "AKIAIM74YPZZN4QPLFWA",
-    secretAccessKey:"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"
+    accessKeyId: "",
+    secretAccessKey:""
 })
 
 const storage=multer.memoryStorage({
