@@ -1,0 +1,72 @@
+.anime{
+    width: 70%;
+    height: 65%;
+    margin-top:-30px;
+    position: relative;
+    z-index: -4;
+}
+.girl{
+    position: absolute;
+    z-index: 3;
+    transform: translateY(65%);
+    left: 32%;
+    animation: 5s second 1s infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: second;
+}
+@keyframes second{
+    0% {
+        transform: translateY(65%);
+    }
+    50% {
+        transform: translateY(70%);
+    }
+    100% {
+        transform: translateY(65%);
+    }
+}
+
+@media (max-width: 480px){
+    .girl{
+        top:-70px;
+        height: 90%;
+        left:40%;
+
+    }
+    .anime{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .girl{
+        top:-3rem;
+        left:50%;
+        height: 70%;
+    }
+    .anime{
+        left:-20px;
+        width:90%;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .girl{
+        top:-3rem;
+        left:32%;
+        height: 70%;
+    }
+}
+@media(min-width:1024px){
+    .girl{
+        top:-3rem;
+        left:32%;
+        height: 70%;
+    }
+}

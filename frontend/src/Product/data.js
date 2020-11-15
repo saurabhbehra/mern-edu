@@ -1,0 +1,75 @@
+export default {
+    products:{
+        id:1,
+        header:'Frontend-Course',
+        image:'/dimages/frontend.jpg',
+        delPrice:5000,
+        price:1600,
+        language:'English',
+        instructor:'Saurabh Behra',
+        courseContents:[
+            {  
+                id:1212,
+                title:'HTML',
+                subtitleWithVideo:[
+                    {
+                        subtitle:'table',
+                        videoLink:'ur3xX9aenqg'
+                    },
+                    {
+                        subtitle:'form',
+                        videoLink:'VAZxSoKb65o'
+                    },
+                    {
+                        subtitle:'routing',
+                        videoLink:'nCD2hj6zJEc'
+                    },
+                 ]
+            },
+            {
+                id:1213,
+                title:'CSS AND BOOTSTRAP',
+                subtitleWithVideo:[
+                    {
+                        subtitle:'animation',
+                        videoLink:'uYKDS1yDODY'
+                    },
+                    {
+                        subtitle:'layout',
+                        videoLink:'a5KYlHNKQB8'
+                    },
+                    {
+                        subtitle:'grid',
+                        videoLink:'jV8B24rSN5o'
+                    },
+                    {
+                        subtitle:'animation',
+                        videoLink:'uYKDS1yDODY'
+                    },
+                    {
+                        subtitle:'layout',
+                        videoLink:'a5KYlHNKQB8'
+                    },
+                    {
+                        subtitle:'grid',
+                        videoLink:'jV8B24rSN5o'
+                    },
+                    {
+                        subtitle:'animation',
+                        videoLink:'uYKDS1yDODY'
+                    },
+                    {
+                        subtitle:'layout',
+                        videoLink:'a5KYlHNKQB8'
+                    },
+                    {
+                        subtitle:'grid',
+                        videoLink:'jV8B24rSN5o'
+                    },
+                 ]
+
+            }
+        ]
+    }
+   
+}

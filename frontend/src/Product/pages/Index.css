@@ -1,0 +1,23 @@
+.main-content{
+  margin-top:5rem;
+}
+.heading{
+  color:#4287f5;
+  margin-top: 2.5rem;
+  font-size:2.5rem;
+  
+}
+
+@media(min-width:1024px){
+  .break{
+    margin-top:2rem;
+  }
+}
+@media(max-width:480px){
+  .break{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+}
+

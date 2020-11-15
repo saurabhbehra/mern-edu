@@ -1,0 +1,17 @@
+.cart-item-card{
+   width:12.5rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cart-border{
+    text-align: center;
+    font-weight: bold;
+}
+.cart-image{
+    width:12.5rem;
+    height:8rem;
+    margin-left: -1.3rem;
+    margin-top:-1.2rem
+}
+.cart-body{
+    height: 8rem;
+}

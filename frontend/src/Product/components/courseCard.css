@@ -1,0 +1,18 @@
+.course-card{
+    max-width:18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.card-border{
+    text-align: center;
+    font-weight: bold;
+}
+.course-image{
+    width:17.5rem;
+    height:10rem;
+    margin-left:-17px;
+    margin-top:-1.2rem
+}
+.course-body{
+    height: 10rem;
+}

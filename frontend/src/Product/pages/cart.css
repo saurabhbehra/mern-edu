@@ -1,0 +1,20 @@
+.cart-card{
+    margin-top: 2rem;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.checkout{
+    color:#ffc107;
+    font-weight: bold;
+    border-color: #ffc107;
+}
+.checkout:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.checkout:hover{
+    color:white;
+    font-weight: bold;
+    background-color:#ffc107;
+    
+}

@@ -1,0 +1,12 @@
+.front-image{
+    width:16rem;
+    height: 12rem;
+}
+.front-price{
+    color:#701a38;
+    font-size: 2rem;
+}
+
+.front-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
