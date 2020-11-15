@@ -1,0 +1,19 @@
+@media only screen and (min-width:480px){
+    .mobile-header{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:480px){
+    .desktop-header{
+        visibility: hidden;
+    }
+    #main{
+        margin-top: 1rem;
+      }
+}
+
+/* @media (max-width: 480px){}
+@media(min-width:416px) and (max-width:1024px){}
+@media(min-width:768px) and (max-width:1024px){}
+@media(min-width:1024px){} 
+*/
